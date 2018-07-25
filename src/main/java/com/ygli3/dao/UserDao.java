@@ -14,5 +14,15 @@ public class UserDao {
         return new User();
     }
 
+    //更新
+    public void updateUser(User user){
+        System.out.println("更新User的方法！");
+    }
+
+    //删除
+    public void deleteUser(Integer id){
+        System.out.println("删除User的方法啊！");
+    }
+
 
 }

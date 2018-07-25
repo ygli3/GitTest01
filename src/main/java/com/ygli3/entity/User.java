@@ -8,6 +8,7 @@ public class User implements Serializable{
     private Integer age;
     private Float weight;
     private Float high;
+    private String idCard;
 
     public String getName() {
         return name;
@@ -39,5 +40,13 @@ public class User implements Serializable{
 
     public void setHigh(Float high) {
         this.high = high;
+    }
+
+    public String getIdCard() {
+        return idCard;
+    }
+
+    public void setIdCard(String idCard) {
+        this.idCard = idCard;
     }
 }
