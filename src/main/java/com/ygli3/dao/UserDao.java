@@ -23,6 +23,7 @@ public class UserDao {
     public void deleteUser(Integer id){
         System.out.println("B开发者添加的代码。。。。");
         System.out.println("删除User的方法啊！");
+        System.out.println("B开发者添加的代码。。。。");
     }
 
 
