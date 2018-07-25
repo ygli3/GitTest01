@@ -9,6 +9,7 @@ public class User implements Serializable{
     private Float weight;
     private Float high;
     private String idCard;
+    private String province;
 
     public String getName() {
         return name;
@@ -48,5 +49,13 @@ public class User implements Serializable{
 
     public void setIdCard(String idCard) {
         this.idCard = idCard;
+    }
+
+    public String getProvince() {
+        return province;
+    }
+
+    public void setProvince(String province) {
+        this.province = province;
     }
 }
