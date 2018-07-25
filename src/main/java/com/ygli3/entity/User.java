@@ -7,6 +7,7 @@ public class User implements Serializable{
     private String name;
     private Integer age;
     private Float weight;
+    private Float high;
 
     public String getName() {
         return name;
@@ -32,4 +33,11 @@ public class User implements Serializable{
         this.weight = weight;
     }
 
+    public Float getHigh() {
+        return high;
+    }
+
+    public void setHigh(Float high) {
+        this.high = high;
+    }
 }
